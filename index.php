@@ -7,11 +7,10 @@
   <body>
     <!-- Commentaire -->
 <?php
-$number1 = 1;
-while($number1 <= 15){
-  echo '<p> On y arrive presque, plus que ' .$number1. ' pas</p>';
-  $number1++;
+for ($i=1; $i <= 15 ; $i++) {
+  echo 'On y arrive presque ';
 }
+
 ?>
   </body>
 </html>
